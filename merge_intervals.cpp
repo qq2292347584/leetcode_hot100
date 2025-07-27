@@ -24,7 +24,7 @@ int main()
 {
     int n;
     cin>>n;
-    vector<vector<int>> intervals(n, vector<int>(2, 0));
+    vector<vector<int>> intervals;
     for(int i = 0; i < n; i++)
     {
         int a,b;
